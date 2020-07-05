@@ -12,7 +12,7 @@
         </div>
         <div class="contenu">
             <div id="formulaire">
-                <form action="/ma-page-de-traitement" method="post">
+                <form action="contact-form.php" method="post" enctype= "multipart/form-data">
                     <div>
                         <label for="name"></label>
                         <input type="text" id="name" name="user_name" placeholder="Nom et Prénom">
