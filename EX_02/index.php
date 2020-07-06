@@ -16,6 +16,7 @@
     </nav>
     <body>
         <?php
+        if(isset($_GET["page"])){
             if ($_GET["page"]== 1){
                 echo "<h1>";
                 echo "Accueil";
@@ -44,6 +45,7 @@
                 echo "ERREUR 404!" . "<br/>";
                 echo "VOUS VOUS ETES PERDUS EN CHEMIN...";
             }
+        }
         ?>
     </body>
     <?php include("footer.php");
